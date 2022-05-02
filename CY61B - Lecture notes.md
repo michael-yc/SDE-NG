@@ -320,7 +320,51 @@ How to read files from the webpage?
 ## Lecture 8 -- Linked List II
 
 - A private method or field is invisible & inaccessible to other classes.
+- Interface of a class: prototypes for public methods, plus descriptions of their behaviors.
+- Abstract Data Type(ADT): a class with a well-defined interface, but implementation details are hidden from other classes.
+- Invariant: a fact about a data structure that is always true.
+- The SList ADT
+	- Another advantage of SList class: SList ADT enforces 2 invariants.
+		- "Size" is always correct.
+		- List is never circularly linked.
+	- Both goals accomplished because only SList methods can change the lists.
 
+- SList ensures this: 
+	- The fields of SList(head and size) are "private".
+	- No method of SList returns on SListNode.
+
+- Doubly-Linked Lists
+	- Insert/deleting at front of list is easy.
+	- Inserting/deleting at the end of list takes a long time.
+
+- Code implementation:
+
+		class DlistNode {
+			Object item;
+			DListNode next;
+			DListNode prev;
+		}
+		
+		class DList {
+			private DListNode head;
+			private DListNode tail;
+		} 
+		
+- insert & delete items at both ends in constant running time.
+- Removes the tail node (at least 2 items in DList) 
+	- tail.prev.next = null;
+	- tail = tail.prev;
+
+- Sentinel: A special node that does not represent an item.
+- DList  vs  Doubly-Linked List
+- DList invariants with sentinel:
+	-  For any DList d, d.head != null.
+	-  For any DList x, x.next != null.
+	-  x.prev != null
+	-  x.next == y, then y.prev == x
+	-  x.prev == y, then y.next == x
+	-  A DList's "size" variable is # of DListNodes, not counting sentinel.
+	-  Empty DList: sentinels prev & next field point to itself.
 
 
 ## Lecture 9 -- Stack Frames
@@ -388,4 +432,182 @@ How to read files from the webpage?
 	- Logical equality
 		- Fractions 1/3 and 3/6 are "equals"
 		- "Set" objects are equals if they contain some elements(even stored in differnent orders). 
+
+- Code
+	- Test deep structural equality
+
+			public boolean equals(SList other) {
+				if (size != other.size) {
+					return false;
+				}
+			
+				SListNode n1 = head;
+				SListNode n2 = other.head;
+			
+				while (n1 != null) {
+					if (!n1.item.equals(n2.item)) {
+						return false;
+					}
+					n1 = n1.next;
+					n2 = n2.next;
+				}
+			}
+			
+- Testing 
+	- Modular testing
+		- Test drives & stubs
+		- Test drivers call the code, check the results.
+
+	- Stubs: bits of code called by the code being tested.
+		- Fill in for missing method.
+		- Determine whether bug lies in calling method or callee by replacing callee with stub
+		- Produce test data that real subroutines rarely produce  |  Produces repeatable test data.
+
+	- Integration Testing
+		- Define interfaces well! No ambiguity in descriptions of behaviors.
+			- Learn to use the debugger.
+
+	- Result verification
+		- Data structure integrity checkers.
+			- Inspects data structure & verifies that all invariants are satisfied.
+		- Algorithm result checker.
+			- Sorting -->> check that each result <= its successor.
+
+	- Assertion: Code that tests an invariant or result.
+
+	- Regression Testing: test suite that can be re-run when changes are made.
+
+## Lecture 11 Inheritance
+
+- A subclass can modify a superclass in 3 ways.
+	- It can declare new fields.
+	- New methods
+	- It can override old methods with new implementations.
+
+- TailList is the subclass of SList.
+- Code:
+
+		public TailList() {
+			//SList(); set size = 0, head = null;
+			tail = null;
+		}
+		To change this:
+		public TailList(int x) {
+			super(x);   // must be first statement in constructor.-->> SList(x);
+			tail = null;
+		}
+		public void insertFront(Object obj) {
+			super.insertFront(obj);
+			if (size == 1) {
+				tail = head;
+			}
+		}
 		
+		
+- The "protected" keyword
+- Code
+
+		public class SList {
+			protected SListNode head;
+			protected int size;
+		}
+		"protected" field/method is visible to declring class & all its subclasses.
+		"private" fields aren't visible to subclasses.
+		
+- __Every TailList Is an SList__
+	- SList s = new TailList();
+	- TailList t = new SList(); -->> Compile time error.
+		- static type: the type of a variable.
+		- dynamic type: the class of the object/variable reference.
+	- When we invoke overriden method, Java calls method for the object's dynamic type, regardless of static type.
+	- SList s = new TailList();
+	- s.insertEnd(obg); // calls TailList.inserEnd();
+	- s = new SList();
+	- s.insertEnd(obj); // calls SListinsertEnd();
+	- Why D.M.L matters?
+	- Method that sorts an SList using only method calls. Now TailLists as well.
+
+
+## Lecture 12 -- Abstract Classes
+
+- New method in TailList called eatList().
+	- TailList t = new TailList();
+	- t.eatList();
+		- SList s = new TailList();
+		- s.eatList(); //compile-time error.
+		- Why?
+			- Not every SList has an "eatList()" method.
+			- Java can't use dynamic method look up on s.
+	- Slist s;
+	- TailList t = new TailList();
+		- s = t;
+		- t = s;  // compile-time error.
+		- t = (TailList) s;
+		- s = new SList();
+		- t = (TailList) s; //Run-time error.
+	- "instanceof" operator tells you whether object is of specific class.
+		- code
+				
+				if (s instanceof TailList) {
+					t = (TailList)s;
+				}
+				false, s is null or does not reference to a TailList or subclass.
+
+- Abstract classes:
+	- A class whose sole purpose is to be implemented.
+		- Code
+
+				public abstract class List {
+					protected int size;
+					public int length() {
+						return size;
+					}
+					public abstract void insertFront(object item);
+				}
+				List myList;
+				myList = new List();  -->> Compile-time error
+				
+- __Abstract methods lacks implementation.__
+
+- A non-abstract class may never
+	- contain an abstract method,
+	- inherit one without providing an implementation
+		- List myList = new SList();
+		- myList.insertFront();
+
+- Interface vs abstract class
+	- A class can inherit from only are class, but can "implement"(inherit from) as many Java interfaces as you like.
+	- A java interface cannot be new;
+		- implement any methods,
+		- include only fields except "static final" constraints. Only contains methos prototypes & constants.
+
+## Lecture 13 -- Java Packages
+
+- Java packages
+	- Package: Colletion of classes, Java interfaces, & subpackages.
+	- 3 benefits:
+		- Packages can contain hidden classes not visible outside package.
+		- Classes can have fields & methods visible inside package only.
+		- Different packages can have classes with same name.
+	- 2 examples:
+		- java.io standard library.
+		- List package containing DList & DListNode.
+
+- Using packages
+	- Every program implicitly imports java.lang.*
+	- A class/variable with package protection is visible to any class in same package, not outside package(files outside directory).
+	- Files outside only see public classes/methods/fields.
+
+- Compiling & running must be done from outside package.
+	- javac -g   list/SList.java
+	- java   list.SList
+
+## Lecture 14 -- Exceptions
+
+- Run-time error: Java throws an exception.
+- Prevent the error by "catching" the exception.
+	- Purpose #1: Surviving errors.
+	- Code explanation about open a file and read with try and catch.
+		- Executes the code inside "Try".
+		- If "try" code executes normally, skip "catch" clauses.
+		- If "try" code throws exception, do not finish "try" code. Jump to first "catch" clause that matches exception, execute " Matches" exception object thrown is some class/subclass of type in "catch" clause.
