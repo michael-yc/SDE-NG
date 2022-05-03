@@ -607,7 +607,124 @@ How to read files from the webpage?
 - Run-time error: Java throws an exception.
 - Prevent the error by "catching" the exception.
 	- Purpose #1: Surviving errors.
-	- Code explanation about open a file and read with try and catch.
-		- Executes the code inside "Try".
-		- If "try" code executes normally, skip "catch" clauses.
-		- If "try" code throws exception, do not finish "try" code. Jump to first "catch" clause that matches exception, execute " Matches" exception object thrown is some class/subclass of type in "catch" clause.
+		- Code explanation about open a file and read with try and catch.
+			- Executes the code inside "Try".
+			- If "try" code executes normally, skip "catch" clauses.
+			- If "try" code throws exception, do not finish "try" code. Jump to first "catch" clause that matches exception, execute " Matches" exception object thrown is some class/subclass of type in "catch" clause.
+			- Jumps to code after all catch clauses.
+			- Only the __first__ matching "Catch" is executed.
+		- Purpose #2: Escaping a sinking ship. Throw your own exception.
+			- Don't have to return anthing.
+			- Anexception can fly many methods down the stack.
+		- Code
+
+				public void compile() {
+					ParseTree p;
+					try{
+						p = parse();
+						p.toByteCode();
+					}
+					catch(ParserException e1)
+				}
+				
+- Checked & Unchecked Exceptions
+	- Throwable
+		- Exceptions
+			- ParserException
+			- RuntimeException(NullPointers、ArrayIndexOutOfBounds)
+		- Error   <<--  running out of memory or stack space
+
+	- When method calls method that "throws" a checked exception, 2 choices:
+		- It cam catch the exception.
+		- "throws" the same exception itself.
+
+## Lecture 15 -- More Java
+
+		try {
+			statement1;
+			return 2;
+		} catch(someException e) {
+			e.printStackTrace();
+			return 2;
+		} finally {
+			f.close();
+			return 3;
+		}
+		
+		If "try" statement begins, the "finally" clause will be executed at the end, no matter what.
+		Exception thrown in "catch" clause: as usual, "finally" still executed first.
+		Exception thrown in "finally" clause: new exception replaces old, method ends immediately.
+
+- Exception constructors
+	- Convention: most Throwables have 2 constructors 
+				
+				class MyException extends Exception {
+					public MyException() {
+						super();
+					}
+					public MyException(String s) {
+						super(s);
+					}
+				} 
+				
+- Field Shadowing
+	- Fields can be "shadowed" in subclasses.
+	- Different from overriding.
+		- Choice of method dictated by dynamic type.
+		- Choice of method dictated by static tyoe.
+
+- Shadowing is a nuisance.
+	- static methods: same shadowing rules on fields.
+
+- "final" methods & classes
+	- "final" method --> cannot be overriden
+	- "final" class --> cannot be extended
+	- Compile time error.
+
+- Simplified "for"
+	- int[] array = {7, 12, 3, 8, 4, 9};
+
+			for (int i : array) {
+				System.out.println(i + " ");
+			}
+			// i is not iterating from 0 to 5. Taking one each array element in turn.
+			for (String s : stringArray) {......}
+			
+## Lecture 16 -- Game Trees
+
+ - Prerequisite:
+	 - Assume both opponents are infinitely intelligent.
+	 - Each grid is assigned a numberical score that indicates how optimistic we are about wining
+		 - computer is guaranteed a win
+		 - opponent
+		 - 3X on a row: 1
+		 - 3O on a row: -1
+		 - Consider each possible move
+		 - Determine each child grid
+		 - Score each child grid by calling minimax recursively
+		 - Score parent gird
+			 - Computer's turn: choose move that yields the maximum score.
+			 - Opponent's turn:choose move that yields the minimum score.
+
+## Lecture 17 -- Encapsulation
+
+- Module: set of methods that work together to perform same task.
+- A module is encapsulated if implementation is hidden, and it can be accessed only through a document interface.
+
+
+
+
+## Lecture 20 -- Algorithm Analysis
+
+
+## Lecture 21 -- Hash Tables
+
+- Dictionaries
+	- Two-letter words & definitions
+	- Word is a __key__ that addresses the definition.
+- Insert a definition inro dictionary
+	- function hashCode() maps each word (key) to integer 0..675 index into array.
+
+- Hash Tables
+	- n: number of keys(words) stored.
+	- 
