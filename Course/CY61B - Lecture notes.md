@@ -710,6 +710,7 @@ How to read files from the webpage?
 
 - Module: set of methods that work together to perform same task.
 - A module is encapsulated if implementation is hidden, and it can be accessed only through a document interface.
+- 
 
 
 
