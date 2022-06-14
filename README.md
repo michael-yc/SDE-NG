@@ -1,12 +1,9 @@
-# SDE NG Preparations
-
 - [SDE NG Preparations](#sde-ng-preparations)
     + [一、补课](#----)
     + [二、准备过程](#------)
     + [三、Mock Interview](#--mock-interview)
     + [四、找工作加修改简历](#----------)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ### 二、补课
 - [CS61B - Java](https://www.youtube.com/watch?v=OT1kliTw0ko&list=PLu0nzW8Es1x3TmpwQRLMQwCtulEd43ZY8&index=1)
