@@ -1,4 +1,4 @@
-## [SDE NG Preparations](#sde-ng-preparations)
+  [SDE NG Preparations](#sde-ng-preparations)
     + [一、补课](#----)
     + [二、准备过程](#------)
     + [三、Mock Interview](#--mock-interview)
