@@ -1,6 +1,6 @@
 # SDE NG Preparations
 
-### 一、现在需要做的事情有哪些：
+### 一、目录：
 -  第一，补课
 -  第二，准备过程
 -  第三，Mock interview
