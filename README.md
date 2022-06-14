@@ -5,7 +5,7 @@
     + [四、找工作加修改简历](#----------)
 
 
-### 二、补课
+### 一、补课
 - [CS61B - Java](https://www.youtube.com/watch?v=OT1kliTw0ko&list=PLu0nzW8Es1x3TmpwQRLMQwCtulEd43ZY8&index=1)
 - [CS61A - Python](https://www.youtube.com/watch?v=vYynOGcDW-8&list=PLXN9vwbk5m7buBvROwNxM6H4zGe7w5hjb)
 - Java Spring MVC[CS5610](https://www.youtube.com/watch?v=BxEP84rYrDc&list=PL_GGiAMracOWWTdEzq-RcjT2kCIe16cYk)
@@ -14,7 +14,7 @@
 	- [Part 1](https://www.coursera.org/learn/algorithms-part1/home/week/4)
 	- [Part 2](https://www.coursera.org/learn/algorithms-part2/home/week/1)
 
-### 三、准备过程
+### 二、准备过程
 * 第一阶段：刷算法题
 	* [花花酱列表](https://zxi.mytechroad.com/blog/leetcode-problem-categories/)
 	* [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
@@ -35,12 +35,12 @@
 	* [面试失败的十个原因](https://www.codeconquest.com/blog/10-reasons-why-you-can-fail-a-coding-interview/)
 	* [除了闷头刷题，还可以通过ta提升通过率](https://www.1point3acres.com/bbs/thread-890731-1-1.html)
 
-### 四、Mock Interview
+### 三、Mock Interview
 - [Interview.vo](https://start.interviewing.io/dashboard/interviewee?tutorial)
 - [Pramp](https://www.pramp.com/dashboard#/)
 - [VMock](https://www.vmock.com/)
 
-### 五、找工作加修改简历
+### 四、找工作加修改简历
 - [Handshake](https://northeastern.joinhandshake.com/stu) -- 找实习
 - [Jobscan](https://www.jobscan.co/dashboard) -- 根据JD修改简历的网站
 - [LinkedIn](https://www.linkedin.com/jobs/search/?currentJobId=3001121146&geoId=103644278&keywords=software%20engineer%20new%20grad&location=united%20states)
