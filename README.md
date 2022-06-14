@@ -1,4 +1,4 @@
-# SDE
+# SDE NG Preparations
 
 ### 一、现在需要做的事情有哪些：
 -  第一，补课
@@ -28,7 +28,7 @@
 	* [经验贴：十大经典系统设计题](https://www.1point3acres.com/bbs/thread-889938-1-1.html)[参考网站](https://www.theinsaneapp.com/2021/03/system-design-and-recommendation-algorithms.html)
 	* [经验贴：提升系统设计内功的资料](https://www.1point3acres.com/bbs/thread-891241-1-1.html)
 	* [Grokking the System Design Interview](https://www.educative.io/module/grokking-system-design-interview)
-	* 
+	* [System Design三本书](https://github.com/Chao-Yan-git/SDE/tree/master/Java%E9%9D%A2%E8%AF%95%E4%BD%93%E7%B3%BB/System%20Design)
 * 第三阶段：BQ准备加面经
 	* [Mock questions](https://www.mockquestions.com/topics/)
 	* [21 Amazon bq](https://passmyinterview.com/21-amazon-behavioral-interview-answers/)
@@ -41,8 +41,10 @@
 - [Pramp](https://www.pramp.com/dashboard#/)
 - [VMock](https://www.vmock.com/)
 
-### 七、找工作加修改简历
+### 五、找工作加修改简历
 - [Handshake](https://northeastern.joinhandshake.com/stu) -- 找实习
-- 
 - [Jobscan](https://www.jobscan.co/dashboard) -- 根据JD修改简历的网站
+- [LinkedIn](https://www.linkedin.com/jobs/search/?currentJobId=3001121146&geoId=103644278&keywords=software%20engineer%20new%20grad&location=united%20states)
+- [CS career](https://www.cscareers.dev/process-tracking)
+- [Blind](https://www.teamblind.com/)
 
