@@ -5,6 +5,9 @@
 -  第二，刷题
 -  第三，Mock interview
 -  第四，修改简历
+-  第五，BQ
+-  第六，面经
+-  第七，修改简历
 #### 二、需要补的课有哪些：
 - [CS61B - Java](https://www.youtube.com/watch?v=OT1kliTw0ko&list=PLu0nzW8Es1x3TmpwQRLMQwCtulEd43ZY8&index=1)
 - [CS61A - Python](https://www.youtube.com/watch?v=vYynOGcDW-8&list=PLXN9vwbk5m7buBvROwNxM6H4zGe7w5hjb)
