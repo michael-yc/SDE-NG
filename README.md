@@ -17,7 +17,7 @@
 	- [Part 1](https://www.coursera.org/learn/algorithms-part1/home/week/4)
 	- [Part 2](https://www.coursera.org/learn/algorithms-part2/home/week/1)
 
-### 三、需要刷的题
+### 三、准备过程
 * 第一阶段
 	* [花花酱列表](https://zxi.mytechroad.com/blog/leetcode-problem-categories/)
 	* [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
@@ -25,7 +25,11 @@
 	* [NeetCode](https://neetcode.io/)
 	* [LeetCode Patters](https://seanprashad.com/leetcode-patterns/)
 	* [九章算法班题目汇总](https://www.zybuluo.com/nalan90/note/1170566)
-* 第二阶段
+* 第二阶段:System Design
+	* [经验贴：一篇文章解决所有system design面试](https://www.1point3acres.com/bbs/thread-559285-1-1.html)
+	* [经验贴：十大经典系统设计题](https://www.1point3acres.com/bbs/thread-889938-1-1.html)[参考网站](https://www.theinsaneapp.com/2021/03/system-design-and-recommendation-algorithms.html)
+	* [经验贴：提升系统设计内功的资料](https://www.1point3acres.com/bbs/thread-891241-1-1.html)
+	* [Grokking the System Design Interview](https://www.educative.io/module/grokking-system-design-interview)
 	* 
 * 第三阶段
 
