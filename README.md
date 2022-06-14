@@ -1,12 +1,12 @@
 # SDE NG Preparations
 
-### 一、目录：
+### 一、目录
 -  第一，补课
 -  第二，准备过程
 -  第三，Mock interview
 -  第四，找工作加修改简历
--  
-#### 二、补课：
+-  第五，八股文修行
+#### 二、补课
 - [CS61B - Java](https://www.youtube.com/watch?v=OT1kliTw0ko&list=PLu0nzW8Es1x3TmpwQRLMQwCtulEd43ZY8&index=1)
 - [CS61A - Python](https://www.youtube.com/watch?v=vYynOGcDW-8&list=PLXN9vwbk5m7buBvROwNxM6H4zGe7w5hjb)
 - Java Spring MVC[CS5610](https://www.youtube.com/watch?v=BxEP84rYrDc&list=PL_GGiAMracOWWTdEzq-RcjT2kCIe16cYk)
