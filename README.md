@@ -1,10 +1,10 @@
-# SDE-to-Two-Sigma
+# SDE
 
 ### 一、现在需要做的事情有哪些：
 -  第一，补课
 -  第二，刷题
--  第三，mock interview
--  第四，下学期成绩必须满绩点
+-  第三，Mock interview
+-  第四，修改简历
 #### 二、需要补的课有哪些：
 - [CS61B - Java](https://www.youtube.com/watch?v=OT1kliTw0ko&list=PLu0nzW8Es1x3TmpwQRLMQwCtulEd43ZY8&index=1)
 - [CS61A - Python](https://www.youtube.com/watch?v=vYynOGcDW-8&list=PLXN9vwbk5m7buBvROwNxM6H4zGe7w5hjb)
@@ -29,5 +29,19 @@
 ### 四、Mock Interview
 - [Interview.vo](https://start.interviewing.io/dashboard/interviewee?tutorial)
 - [Pramp](https://www.pramp.com/dashboard#/)
+- [VMock](https://www.vmock.com/)
 
+### 五、BQ 准备
+- [Mock questions](https://www.mockquestions.com/topics/)
+- [21 Amazon bq](https://passmyinterview.com/21-amazon-behavioral-interview-answers/)
+- Youtube博主：CareerVidz、
+- [面试失败的十个原因](https://www.codeconquest.com/blog/10-reasons-why-you-can-fail-a-coding-interview/)
+
+### 六、面经
+- [除了闷头刷题，还可以通过ta提升通过率](https://www.1point3acres.com/bbs/thread-890731-1-1.html)
+
+### 七、找工作加修改简历
+- [Handshake](https://northeastern.joinhandshake.com/stu) -- 找实习
+- 
+- [Jobscan](https://www.jobscan.co/dashboard) -- 根据JD修改简历的网站
 
