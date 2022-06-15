@@ -8,13 +8,14 @@
 ### 一、补课
 - [CS61B - Java](https://www.youtube.com/watch?v=OT1kliTw0ko&list=PLu0nzW8Es1x3TmpwQRLMQwCtulEd43ZY8&index=1)
 - [CS61A - Python](https://www.youtube.com/watch?v=vYynOGcDW-8&list=PLXN9vwbk5m7buBvROwNxM6H4zGe7w5hjb)
-- [Web Deveopment CS5610](https://www.youtube.com/watch?v=BxEP84rYrDc&list=PL_GGiAMracOWWTdEzq-RcjT2kCIe16cYk)
 - [The missing semester - MIT] (https://missing.csail.mit.edu/)
 - Algorithms - Princeton
 	- [Part 1](https://www.coursera.org/learn/algorithms-part1/home/week/4)
 	- [Part 2](https://www.coursera.org/learn/algorithms-part2/home/week/1)
 - [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 - [Computer Science 162 - Operating Systems](https://www.youtube.com/watch?v=qcyXohw1H00&list=PL--jIyXjDXf6Q4XA6q8RYnyChYzJ0K0F2)
+- [Web Deveopment CS5610](https://www.youtube.com/watch?v=BxEP84rYrDc&list=PL_GGiAMracOWWTdEzq-RcjT2kCIe16cYk)
+- 
 
 ### 二、准备过程
 * 第一阶段：刷算法题
@@ -30,6 +31,7 @@
 	* [经验贴：提升系统设计内功的资料](https://www.1point3acres.com/bbs/thread-891241-1-1.html)
 	* [Grokking the System Design Interview](https://www.educative.io/module/grokking-system-design-interview)
 	* [System Design三本书](https://github.com/Chao-Yan-git/SDE/tree/master/Java%E9%9D%A2%E8%AF%95%E4%BD%93%E7%B3%BB/System%20Design)
+	* [Kubernetes 架构设计帖子](https://www.1point3acres.com/bbs/thread-891848-1-1.html)
 * 第三阶段：BQ准备加面经
 	* [Mock questions](https://www.mockquestions.com/topics/)
 	* [21 Amazon bq](https://passmyinterview.com/21-amazon-behavioral-interview-answers/)
