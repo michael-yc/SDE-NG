@@ -27,7 +27,7 @@
 - 云计算：
 	- [Cloud Computing Specialization](https://www.coursera.org/specializations/cloud-computing?=) 
 	
-- [The missing semester - MIT] (https://missing.csail.mit.edu/)
+- [The missing semester - MIT](https://missing.csail.mit.edu/)
 
 ### 二、准备过程
 * 第一阶段：刷算法题
