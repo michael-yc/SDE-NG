@@ -13,6 +13,7 @@
 - Algorithms - Princeton
 	- [Part 1](https://www.coursera.org/learn/algorithms-part1/home/week/4)
 	- [Part 2](https://www.coursera.org/learn/algorithms-part2/home/week/1)
+- [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 
 ### 二、准备过程
 * 第一阶段：刷算法题
