@@ -23,6 +23,9 @@
 	- [Web Deveopment CS5610](https://www.youtube.com/watch?v=BxEP84rYrDc&list=PL_GGiAMracOWWTdEzq-RcjT2kCIe16cYk)
 	- [The Full Stack Web Development](https://www.udemy.com/course/the-full-stack-web-development/)
 	- [Spring & Hibernate for Beginners (includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/)
+
+- 云计算：
+	- [Cloud Computing Specialization](https://www.coursera.org/specializations/cloud-computing?=) 
 	
 - [The missing semester - MIT] (https://missing.csail.mit.edu/)
 
