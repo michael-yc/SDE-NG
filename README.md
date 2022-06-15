@@ -14,6 +14,7 @@
 	- [Part 1](https://www.coursera.org/learn/algorithms-part1/home/week/4)
 	- [Part 2](https://www.coursera.org/learn/algorithms-part2/home/week/1)
 - [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+- [Computer Science 162 - Operating Systems](https://www.youtube.com/watch?v=qcyXohw1H00&list=PL--jIyXjDXf6Q4XA6q8RYnyChYzJ0K0F2)
 
 ### 二、准备过程
 * 第一阶段：刷算法题
