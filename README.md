@@ -61,5 +61,6 @@
 - [Jobscan](https://www.jobscan.co/dashboard) -- 根据JD修改简历的网站
 - [LinkedIn](https://www.linkedin.com/jobs/search/?currentJobId=3001121146&geoId=103644278&keywords=software%20engineer%20new%20grad&location=united%20states)
 - [CS career](https://www.cscareers.dev/process-tracking)（NG）
+- [Indeed](https://www.indeed.com/)
 - [Blind](https://www.teamblind.com/)(在职跳槽)
 
