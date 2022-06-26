@@ -37,13 +37,16 @@
 	* [NeetCode](https://neetcode.io/)
 	* [LeetCode Patters](https://seanprashad.com/leetcode-patterns/)
 	* [九章算法班题目汇总](https://www.zybuluo.com/nalan90/note/1170566)
+	
 * 第二阶段：System Design
 	* [经验贴：一篇文章解决所有system design面试](https://www.1point3acres.com/bbs/thread-559285-1-1.html)
 	* [经验贴：十大经典系统设计题](https://www.1point3acres.com/bbs/thread-889938-1-1.html)[参考网站](https://www.theinsaneapp.com/2021/03/system-design-and-recommendation-algorithms.html)
 	* [经验贴：提升系统设计内功的资料](https://www.1point3acres.com/bbs/thread-891241-1-1.html)
+	* [Kubernetes 架构设计帖子](https://www.1point3acres.com/bbs/thread-891848-1-1.html)
 	* [Grokking the System Design Interview](https://www.educative.io/module/grokking-system-design-interview)
 	* [System Design三本书](https://github.com/Chao-Yan-git/SDE/tree/master/Java%E9%9D%A2%E8%AF%95%E4%BD%93%E7%B3%BB/System%20Design)
-	* [Kubernetes 架构设计帖子](https://www.1point3acres.com/bbs/thread-891848-1-1.html)
+	* Youtube博主：[Scott Shi](https://www.youtube.com/watch?v=th_73AVA4dY&list=PLAd5bt5mn3V3TrrJFBpnu4PH9e8KZMvNA)
+	
 * 第三阶段：BQ准备加面经
 	* [Mock questions](https://www.mockquestions.com/topics/)
 	* [21 Amazon bq](https://passmyinterview.com/21-amazon-behavioral-interview-answers/)
