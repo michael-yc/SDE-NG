@@ -24,9 +24,10 @@
 	- [The Full Stack Web Development](https://www.udemy.com/course/the-full-stack-web-development/)
 	- [Spring & Hibernate for Beginners (includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/)
 
-- 云计算：
-	- [Cloud Computing Specialization](https://www.coursera.org/specializations/cloud-computing?=) 
-	
+- 云计算与分布式系统：
+	- [Cloud Computing Specialization](https://www.coursera.org/specializations/cloud-computing?=)
+	- [MIT 6.824 Distributed Systems (Spring 2020)](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
+
 - [The missing semester - MIT](https://missing.csail.mit.edu/)
 
 ### 二、准备过程
@@ -58,12 +59,19 @@
 - [Interview.vo](https://start.interviewing.io/dashboard/interviewee?tutorial)
 - [Pramp](https://www.pramp.com/dashboard#/)
 - [VMock](https://www.vmock.com/)
+- [TechMock](https://www.techmockinterview.com/)
 
 ### 四、找工作加修改简历
-- [Handshake](https://northeastern.joinhandshake.com/stu) -- 找实习
+1. 实习
+	- [Handshake](https://northeastern.joinhandshake.com/stu)
+	- [Summer 2023 Tech Internships by Pitt CSC](https://github.com/pittcsc/Summer2023-Internships)
+	- [Cs career](https://www.cscareers.dev/process-tracking/2023-summer-intern)
+2. SDE NG
+	- [LinkedIn](https://www.linkedin.com/jobs/search/?currentJobId=3001121146&geoId=103644278&keywords=software%20engineer%20new%20grad&location=united%20states)
+	- [2023 New Grad Applications](https://github.com/coderQuad/New-Grad-Positions-2023)
+	- [小河湾](http://www.riversmall.com/new_grad.html)
+	- [HaoOffer](https://haooffer.net/new-grad/)
+	- [CS career](https://www.cscareers.dev/process-tracking)（NG）
 - [Jobscan](https://www.jobscan.co/dashboard) -- 根据JD修改简历的网站
-- [LinkedIn](https://www.linkedin.com/jobs/search/?currentJobId=3001121146&geoId=103644278&keywords=software%20engineer%20new%20grad&location=united%20states)
-- [CS career](https://www.cscareers.dev/process-tracking)（NG）
-- [Indeed](https://www.indeed.com/)
-- [Blind](https://www.teamblind.com/)(在职跳槽)
+- [Blind](https://www.teamblind.com/) -- (在职跳槽)
 
