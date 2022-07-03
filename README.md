@@ -35,10 +35,7 @@
 ### 二、准备过程
 * 第一阶段：刷算法题
 	* [花花酱列表](https://zxi.mytechroad.com/blog/leetcode-problem-categories/)
-	* [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
-	* [Grind 75](https://www.techinterviewhandbook.org/grind75)
 	* [NeetCode](https://neetcode.io/)
-	* [LeetCode Patters](https://seanprashad.com/leetcode-patterns/)
 	* [九章算法班题目汇总](https://www.zybuluo.com/nalan90/note/1170566)
 	
 * 第二阶段：System Design
