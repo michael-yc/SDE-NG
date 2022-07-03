@@ -72,7 +72,7 @@
 	- [2023 New Grad Applications](https://github.com/coderQuad/New-Grad-Positions-2023)
 	- [小河湾](http://www.riversmall.com/new_grad.html)
 	- [HaoOffer](https://haooffer.net/new-grad/)
-	- [CS career](https://www.cscareers.dev/process-tracking)（NG）
+	- [CS career](https://www.cscareers.dev/process-tracking)
 - [Jobscan](https://www.jobscan.co/dashboard) -- 根据JD修改简历的网站
 - [Blind](https://www.teamblind.com/) -- (在职跳槽)
 
