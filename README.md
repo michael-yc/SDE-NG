@@ -9,6 +9,7 @@
 - 编程语言：
 	- [CS61B - Java](https://www.youtube.com/watch?v=OT1kliTw0ko&list=PLu0nzW8Es1x3TmpwQRLMQwCtulEd43ZY8&index=1)
 	- [CS61A - Python](https://www.youtube.com/watch?v=vYynOGcDW-8&list=PLXN9vwbk5m7buBvROwNxM6H4zGe7w5hjb)
+	- [Go: The Complete Developer's Guide (Golang)](https://www.udemy.com/course/go-the-complete-developers-guide/)
 
 - 算法两门课参考：
 	- Algorithms - Princeton
@@ -19,10 +20,11 @@
 - 操作系统：
 	- [Computer Science 162 - Operating Systems](https://www.youtube.com/watch?v=qcyXohw1H00&list=PL--jIyXjDXf6Q4XA6q8RYnyChYzJ0K0F2)
 	
-- 全栈三门课参考：
+- 全栈课参考：
 	- [Web Deveopment CS5610](https://www.youtube.com/watch?v=BxEP84rYrDc&list=PL_GGiAMracOWWTdEzq-RcjT2kCIe16cYk)
 	- [The Full Stack Web Development](https://www.udemy.com/course/the-full-stack-web-development/)
 	- [Spring & Hibernate for Beginners (includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/)
+	- [NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)](https://www.udemy.com/course/nodejs-the-complete-guide/)
 
 - 云计算与分布式系统：
 	- [Cloud Computing Specialization](https://www.coursera.org/specializations/cloud-computing?=)
