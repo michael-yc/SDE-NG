@@ -6,6 +6,8 @@
 
 
 ### 一、补课
+- 基础知识
+	- [八股文Java知识体系](https://pdai.tech/)
 - 编程语言：
 	- [CS61B - Java](https://www.youtube.com/watch?v=OT1kliTw0ko&list=PLu0nzW8Es1x3TmpwQRLMQwCtulEd43ZY8&index=1)
 	- [CS61A - Python](https://www.youtube.com/watch?v=vYynOGcDW-8&list=PLXN9vwbk5m7buBvROwNxM6H4zGe7w5hjb)
