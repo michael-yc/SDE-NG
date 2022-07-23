@@ -67,6 +67,7 @@
 	- [Handshake](https://northeastern.joinhandshake.com/stu)
 	- [Summer 2023 Tech Internships by Pitt CSC](https://github.com/pittcsc/Summer2023-Internships)
 	- [Cs career](https://www.cscareers.dev/process-tracking/2023-summer-intern)
+	- [Levels](https://www.levels.fyi/internships/)
 2. SDE NG
 	- [LinkedIn](https://www.linkedin.com/jobs/search/?currentJobId=3001121146&geoId=103644278&keywords=software%20engineer%20new%20grad&location=united%20states)
 	- [2023 New Grad Applications](https://github.com/coderQuad/New-Grad-Positions-2023)
