@@ -142,10 +142,12 @@
 	x & x = x       
 	x | x = x
 
-	**Swap two numbers: a ^= b b ^= a a ^=b**  
+	**Swap two numbers: a ^= b b ^= a a ^=b**
+	**x | (1 << n) : Returns the number x with the nth bit set.**
+	  
 
 1. LeetCode问题
-    - **Trick 1: 利用n & (n - 1)消去n最后一位1**
+    - **Trick 1: 利用n & (n - 1)消去n最后一位1**或者**x & (-x)**
 		- [LeetCode 231](https://leetcode.com/problems/power-of-two/) **判断一个数是否为2的幂**
 			+ 首先n在不为0的情况下，n如果为2的n次方，说明是（0000 0001）左移n次，n - 1为上述值减一，两者求与运算，最后结果为0.
 			+ n > 0 && (n & (n - 1)) == 0
@@ -181,3 +183,9 @@
 		- [318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)
 		- [1386. Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/)
 		
+
+- References: 
+	- https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
+	- https://zhuanlan.zhihu.com/p/26890617
+	- https://www.cnblogs.com/zhangziqiu/archive/2011/03/30/computercode.html
+	- 
